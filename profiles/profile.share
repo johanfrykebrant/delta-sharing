@@ -1,0 +1,5 @@
+{
+  "shareCredentialsVersion": 1,
+  "endpoint": "<docker host IP>/delta-sharing/",
+  "bearerToken": "<token>"
+}

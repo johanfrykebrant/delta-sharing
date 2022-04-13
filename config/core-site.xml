@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+  <property>
+    <name>fs.azure.account.auth.type.sqjohansadl.dfs.core.windows.net</name>
+    <value>SharedKey</value>
+    <description>
+    </description>
+  </property>
+  <property>
+    <name>fs.azure.account.key.sqjohansadl.dfs.core.windows.net</name>
+    <value>h9ic+qC+HtksU/ibJXYfYin5N9p4w3OoSIyFgZPf+JF/VsW7WZ6fspj5dTablGsaV3ru9KHbp8eTld5kOqDKTQ==</value>
+    <description>
+    The secret password. Never share these.
+    </description>
+  </property>
+</configuration>
