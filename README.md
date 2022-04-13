@@ -50,7 +50,7 @@ This is just for testing purposes and nothing else. For this to be of any practi
 ```
 - Docker container is now up and running on your machine. See Delta sharing.ipynb on how to retrive data from cloud storage using delta sharing.
 
-##Useful links:
+## Useful links:
 1. https://blog.devgenius.io/delta-sharing-on-azure-a64a4fb8b0c2 (How to host your docker container on an Azure VM)
 2. https://github.com/delta-io/delta-sharing/blob/main/README.md
 3. https://hadoop.apache.org/docs/stable/hadoop-azure/abfs.html#Authentication (Authentication alternatives)
