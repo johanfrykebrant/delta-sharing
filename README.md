@@ -55,6 +55,3 @@ This is just for testing purposes and nothing else. For this to be of any practi
 2. https://github.com/delta-io/delta-sharing/blob/main/README.md
 3. https://hadoop.apache.org/docs/stable/hadoop-azure/abfs.html#Authentication (Authentication alternatives)
 4. https://github.com/delta-io/delta-sharing/blob/main/server/src/universal/conf/delta-sharing-server.yaml.template (Different cloud storage alternatives)
-
-
-Created by Johan Frykebrant
