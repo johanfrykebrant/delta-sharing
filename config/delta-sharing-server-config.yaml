@@ -2,17 +2,15 @@
 version: 1
 # Config shares/schemas/tables to share
 shares:
-- name: "Databricks_taxi"
+- name: "<share name>"
   schemas:
-  - name: "taxi"
+  - name: "<schema name>"
     tables:
-    - name: "full"
+    - name: "<table name>"
      # Azure Data Lake Storage Gen2. See https://github.com/delta-io/delta-sharing#azure-data-lake-storage-gen2 for how to config the credentials
-      location: "abfss://deltasharing@sqjohansadl.dfs.core.windows.net/taxi_full"
-    - name: "limited"
-      location: "abfss://deltasharing@sqjohansadl.dfs.core.windows.net/taxi_limited"
+      location: "abfss://<container name>@<storage account name>.dfs.core.windows.net/<table path>"
 # Set the host name that the server will use
-host: "localhost"
+host: "<docker host IP>"
 # Set the port that the server will listen on. Note: using ports below 1024 
 # may require a privileged user in some operating systems.
 port: 8080
@@ -29,4 +27,4 @@ stalenessAcceptable: false
 evaluatePredicateHints: false
 # Auth Token is Optional
 authorization:
-  bearerToken: "BigSecurity123"
+  bearerToken: "<token>"
