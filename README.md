@@ -9,7 +9,7 @@ This is just for testing purposes and nothing else. For this to be of any practi
 - An Azure Deta Lake Storage V2 with a container that holds one or more folders with data stored in delta table format. 
 
 
-# Installation & set-up uf docker container
+# Installation & set-up of docker container
 
 - Install docker desktop (Requires WSL2(Windows Subsystem for Linux) to start up properly, but will be disabled later)
 
